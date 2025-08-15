@@ -1,14 +1,13 @@
 import "./css/home.css";
 import Navbar from "@/app/components/Navbar";
-import Hero from "@/app/components/Hero";
+import HeroSection from "@/app/components/HeroSection";
 import StatsSection from "./components/SectionTwo";
 
 export default function Home() {
   return (
-    <>
+    <div className="relative">
       <Navbar />
-      <Hero />
-      <StatsSection />
-    </>
+      <HeroSection />
+    </div>
   );
 }
