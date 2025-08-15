@@ -18,10 +18,10 @@ export default function HeroSection() {
         <Image
           alt="hero section bg"
           src={HeroBgImg}
-          className="absolute inset-0 h-[99%]"
+          className="absolute inset-0 h-[99%] w-full"
         />
       </div>
-      <div className="relative top-20 font-[poppins] container  mx-auto pl-5 lg:px-24 py-16 flex flex-col  md:flex-row items-center">
+      <div className="relative top-20 font-[poppins] container  mx-auto pl-5 md:pl-10 lg:px-24 py-16 flex flex-col  md:flex-row items-center">
         {/* Left Side */}
         <div className="md:w-1/2">
           <span className="inline-block  bg-white  text-teal-700 px-3 py-2 rounded-lg text-sm  font-medium mb-7">
@@ -39,7 +39,7 @@ export default function HeroSection() {
           </p>
 
           {/* Search Bar */}
-          <div className="flex bg-white rounded-xl shadow-md p-2 max-w-md">
+          <div className="flex bg-white rounded-xl shadow-md p-2 max-w-md w-11/12 lg:w-full">
             <input
               type="text"
               placeholder="Search"
